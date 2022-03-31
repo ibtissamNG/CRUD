@@ -1,0 +1,134 @@
+body{
+    position: relative;
+    background-image: url(../image/image.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    border:1px solid white;
+    border-radius:20px;
+    background-color:#d3ba80;
+    font-weight:bold ;
+}
+
+li{
+    display:inline-block;
+    float:right;
+    margin:10px 10px;
+   
+}
+img{
+    height:500px;
+    width:600px;
+    float:right;
+    position:absolute;
+    top:16vh;
+    right:60px;
+}
+
+p{
+    position:absolute;
+    top:40vh;
+    left:20%;
+    font-weight: bold;
+    font-size: xx-large;
+    color:#a48848;
+    border-left: black 3px solid;
+    padding-left: 10px;
+}
+
+/*Add.php*/
+body{
+    position:relative;
+}
+form{
+    height:150px;
+    width:400px;
+    position:absolute;
+   top:60vh;
+   left:50%;
+   margin-top:-150px;
+   margin-left:-200px;
+   text-align:center;
+  
+}
+
+
+form #label2{
+    margin-left:30px;
+}
+
+form input{
+    width:230px;
+    font-size: small;
+    background-color:rgb(255, 255, 255);
+    padding:10px;
+    border:none;
+    border-radius: 20px;
+    margin-bottom:10px;
+}
+#nom{
+    margin-left:-2px;
+}
+#prix{
+    margin-left:35px;
+}
+label{
+    margin-bottom:5px;
+    font-size:medium;
+    margin-right:5px;
+}
+
+
+
+form input[type="submit"]{
+    border:none;
+    background-color:rgb(199 159 79);
+   border-radius:20px;
+    width:100px;
+    height: 35px;
+    padding:10px;
+
+}
+
+form input[type="submit"]:hover{
+    background-color:rgb(230, 191, 115);
+    color:rgb(255, 255, 255);
+    border:none;
+    margin-left: 10px;
+    
+}
+
+/*Modifier.php*/
+ #formAdd{
+     height:200px;
+     width:300px;
+     position:absolute;
+     top:30vh;
+     left:38%;
+     border:2px black solid;
+     padding:20px 3px 20px 55px;
+     border-radius: 30px;
+     text-align: center;
+
+ }
+
+ #formAdd table .class1{
+     color:#b17f0a;
+     font-size: large;
+     margin-bottom:20px;
+ }
+
+
+
+
